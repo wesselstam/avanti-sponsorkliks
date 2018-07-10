@@ -1,7 +1,6 @@
 var clubId = 4936;
 var clubName = "Studievereniging Syntax";
-var clubLink = "https://www.syntaxleiden.nl/sponsoring/sponsorkliks/";
-var excludes = [ "sponsorkliks.com", "ideal" ];
+var excludes = [ "sponsorkliks.com", "ideal", "utm_medium"];
 var sponsorkliksLink = "http://www.sponsorkliks.com/link.php?club={club_id}&shop_id={shop_id}&shop={shop_name}";
 
 function extractDomain(url)
@@ -28,7 +27,9 @@ function redirectShop(url, ref)
     return;
 
   // Find matching webshop
-  var match = shops.filter(function(s) { return url.indexOf("." + s.domain.toLowerCase()) != -1 || url.indexOf("://" + s.domain.toLowerCase()) != -1; });
+  var match = shops.filter(function(s) {
+    return url.indexOf("." + s.domain.toLowerCase()) != -1 || url.indexOf("://" + s.domain.toLowerCase()) != -1;
+  });
 
   // Do nothing if no matching shop was found
   if (match.length == 0)
@@ -39,7 +40,7 @@ function redirectShop(url, ref)
   var shop = match.pop();
 
   // Redirect if confirmed by user
-  if (confirm("Wilt u met uw aankoop bij deze webshop een gratis bijdrage leveren aan " + clubName + "?"))
+  if (confirm("Wilt je met je aankoop bij " + shop.name + " een gratis bijdrage leveren aan " + clubName + "?"))
     location.href = sponsorkliksLink.replace("{club_id}", clubId).replace("{shop_id}", shop.id).replace("{shop_name}", shop.name);
 }
 
