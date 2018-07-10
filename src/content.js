@@ -1,6 +1,6 @@
-var clubId = 4674;
-var clubName = "Korfbalvereniging Avanti";
-var clubLink = "http://www.avantikorfbal.nl/sponsoring/sponsorkliks/";
+var clubId = 4936;
+var clubName = "Studievereniging Syntax";
+var clubLink = "https://www.syntaxleiden.nl/sponsoring/sponsorkliks/";
 var excludes = [ "sponsorkliks.com", "ideal" ];
 var sponsorkliksLink = "http://www.sponsorkliks.com/link.php?club={club_id}&shop_id={shop_id}&shop={shop_name}";
 

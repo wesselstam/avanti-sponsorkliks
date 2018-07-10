@@ -1,13 +1,13 @@
 {
    "manifest_version": 2,
-   "name": "Avanti Sponsorkliks",
+   "name": "Syntax Sponsorkliks",
    "version": "1.0.3",
 
-   "description": "Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor Avanti!",
+   "description": "Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor Syntax!",
    "icons": {
-      "128": "icons/avanti128.png",
-      "48": "icons/avanti48.png",
-      "16": "icons/avanti16.png"
+      "128": "icons/syntax128.png",
+      "48": "icons/syntax48.png",
+      "16": "icons/syntax16.png"
    },
 
    "author": "Erik van der Veen",
