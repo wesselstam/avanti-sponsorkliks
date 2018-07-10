@@ -10,7 +10,7 @@
       "16": "icons/syntax16.png"
    },
 
-   "author": "Erik van der Veen",
+   "author": "Wessel Stam",
 
    "content_scripts": [ {
       "js": [ "shops.js", "content.js" ],

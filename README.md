@@ -1,6 +1,4 @@
-Avanti Sponsorkliks
+Syntax Sponsorkliks
 ===================
 
-Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor Avanti!
-
-Beschikbaar via: https://chrome.google.com/webstore/detail/avanti-sponsorkliks/eegfafjflopbapdafhmhkhedikaafhpc?hl=nl
+Geeft een herinnering bij het bezoeken van deelnemende Sponsorkliks webwinkels. Gratis geld voor Syntax!
